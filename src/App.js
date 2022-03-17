@@ -1,7 +1,7 @@
-import React from "react";
-import "./App.css";
-import Auth from "./components/Auth";
-import Layout from "./components/Layout";
+import React from 'react';
+import './App.css';
+import Auth from './components/Auth';
+import Layout from './components/Layout';
 
 function App() {
   return (
