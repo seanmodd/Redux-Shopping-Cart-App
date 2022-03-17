@@ -5,7 +5,7 @@ import './Auth.css';
 const Auth = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('submit this one is v1.3');
+    console.log('submit this one is v1.4');
   };
 
   return (
