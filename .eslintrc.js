@@ -90,23 +90,8 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
-    // 'prettier/prettier': 'off',
+    'import/no-named-as-default-member': 'off',
+    'import/no-named-as-default': 'off',
+    'react/button-has-type': 'off',
   },
-  env: {
-    browser: true,
-    node: true,
-    es6: true,
-  },
-  settings: {
-    'import/resolver': {
-      node: {
-        paths: ['.', 'components', 'styles'],
-        extensions: ['.js', '.jsx'],
-      },
-    },
-    react: {
-      version: 'detect',
-    },
-  },
-  root: true,
 };
