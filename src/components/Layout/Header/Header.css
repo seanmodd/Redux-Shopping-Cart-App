@@ -1,14 +1,36 @@
 .header-nav {
   position: sticky;
   box-shadow: 0px 10px 20px #ccc;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .header-ul {
   display: flex;
   flex: 1;
+  justify-content: center;
+  align-items: center;
   justify-content: space-between;
 }
 .header-h2 {
   font-family: monospace;
   font-size: 30px;
+}
+/* form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+.logout-btn {
+  border: 10px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rebeccapurple;
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+.logout-btn:hover {
+  color: white;
+  background: rgb(18, 20, 26);
 }
