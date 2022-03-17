@@ -10,6 +10,14 @@ li {
   padding: 10px;
   cursor: pointer;
 }
+.cartIcon h4 {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+button {
+  border-radius: 5px;
+  
+}
 .cart-container {
   border: 1px solid black;
   border-radius: 10px;

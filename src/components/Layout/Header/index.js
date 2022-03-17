@@ -1,12 +1,13 @@
 import { useDispatch, useSelector } from 'react-redux';
 import React from 'react';
+import { cartActions } from '../../../store/cart-slice';
 import Cart from '../Cart';
 import './Header.css';
 import { authActions } from '../../../store/auth-slice';
 
 const Header = () => {
-  const dispatch = useDispatch();
   const isLoggedIn = useSelector((state) => state.auth.isLoggedIn);
+  const dispatch = useDispatch();
 
   const handleSubmit = (e) => {
     e.preventDefault();
