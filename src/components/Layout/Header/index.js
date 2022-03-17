@@ -1,5 +1,5 @@
 import React from 'react';
-import Cart from './Cart';
+import Cart from '../Cart';
 import './Header.css';
 
 const Header = () => (
