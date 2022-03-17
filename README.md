@@ -1,3 +1,8 @@
+# Starter App for [Redux Tutorial - Beginner to Advanced](https://www.youtube.com/watch?v=zrs7u6bdbUw&list=PLb0ENDTKBLSUt5nROX6Q5_YTkljmXm297&index=3)
+### See original GitHub repo from Nikhil Thadani [here](https://github.com/Nikhilthadani/Redux-Shopping-Cart-App)
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
