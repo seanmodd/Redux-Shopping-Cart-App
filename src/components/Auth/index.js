@@ -3,10 +3,9 @@ import React, { useState, useContext } from 'react';
 import './Auth.css';
 
 const Auth = () => {
-
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('submit');
+    console.log('submit this one is v1.1');
   };
 
   return (
