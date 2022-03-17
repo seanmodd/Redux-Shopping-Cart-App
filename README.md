@@ -1,4 +1,4 @@
-# WIP App for [Redux Tutorial - Beginner to Advanced](https://www.youtube.com/watch?v=zrs7u6bdbUw&list=PLb0ENDTKBLSUt5nROX6Q5_YTkljmXm297&index=3)
+# Now ready to start dispatching actions from the App for [Redux Tutorial - Beginner to Advanced](https://www.youtube.com/watch?v=zrs7u6bdbUw&list=PLb0ENDTKBLSUt5nROX6Q5_YTkljmXm297&index=3)
 ### See original GitHub repo from Nikhil Thadani [here](https://github.com/Nikhilthadani/Redux-Shopping-Cart-App)
 
 ---
