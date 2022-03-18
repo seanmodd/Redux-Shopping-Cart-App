@@ -25,6 +25,7 @@ export const cartSlice = createSlice({
     },
     addToCart: (state, action) => {
       const newItem = action.payload;
+      const { id, price, totalPrice, name } = newItem;
       const { itemsList } = state;
       const existingItem = itemsList.find((item) => item.id === newItem.id);
 
@@ -33,11 +34,16 @@ export const cartSlice = createSlice({
         existingItem.totalPrice += newItem.price;
       } else {
         itemsList.push({
-          id: newItem.id,
-          price: newItem.price,
+          id,
+          price,
           quantity: 1,
-          totalPrice: newItem.price,
-          name: newItem.name,
+          totalPrice: price,
+          name,
+          // id: newItem.id,
+          // price: newItem.price,
+          // quantity: 1,
+          // totalPrice: newItem.price,
+          // name: newItem.name,
         });
         state.totalQuantity++;
       }
