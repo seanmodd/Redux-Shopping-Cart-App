@@ -39,6 +39,7 @@ export const cartSlice = createSlice({
           totalPrice: newItem.price,
           name: newItem.name,
         });
+        state.totalQuantity++;
       }
     },
     removeFromCart: (state, action) => {},
