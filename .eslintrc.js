@@ -94,5 +94,6 @@ module.exports = {
     'import/no-named-as-default': 'off',
     'react/button-has-type': 'off',
     'no-unused-vars': 'off',
+    'no-plusplus': 'off',
   },
 };
