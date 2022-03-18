@@ -5,17 +5,14 @@ import { cartActions } from '../../../store/cart-slice';
 import './Product.css';
 
 const Product = ({ name, id, imgURL, price }) => {
-  const itemsList = useSelector((state) => state.cart.itemsList);
   const dispatch = useDispatch();
-  console.log('This is the itemsList: ', itemsList);
   const addToCart = (e) => {
-    dispatch(
-      cartActions.addToCart({
-        name,
-        id,
-        price,
-      })
-    );
+    const laptop = {
+      name,
+      id,
+      price,
+    };
+    dispatch(cartActions.addToCart(laptop));
   };
   return (
     <div className="card">
